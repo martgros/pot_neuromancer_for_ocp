@@ -1,5 +1,5 @@
 [project]
-name = "pot-neuromancer-for-ocp"
+name = "velocity_planner"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,12 +9,8 @@ dependencies = [
     "ipykernel>=6.30.1",
     "matplotlib>=3.10.6",
     "neuromancer>=1.5.4",
-    "torch>=2.8.0",
-    "velocity-planner>=0.1.0",
 ]
 
-[tool.uv.sources]
-velocity-planner = { workspace = true }
-
-[tool.uv.workspace]
-members = ["packages/*"]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
