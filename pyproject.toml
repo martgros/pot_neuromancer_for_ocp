@@ -9,6 +9,7 @@ dependencies = [
     "ipykernel>=6.30.1",
     "matplotlib>=3.10.6",
     "neuromancer>=1.5.4",
+    "setuptools==80",
     "torch>=2.8.0",
     "velocity-planner>=0.1.0",
 ]
